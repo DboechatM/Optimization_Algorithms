@@ -2,7 +2,7 @@
 
 ## trabalho Desenvolvido para disciplina MEC2403 | PUC-RIO
 
-##Problema Proposto
+## Problema Proposto
 
 ### Utilizar métodos indiretos para minimizar o peso da treliça plana de duas barras.
 
