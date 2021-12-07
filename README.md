@@ -1,6 +1,6 @@
 # Otimização: Algoritmos e Aplicações na Engenharia Mecânica
 
-## trabalho Desenvolvido para disciplina MEC2403 | PUC-RIO
+## Trabalho Desenvolvido para disciplina MEC2403 | PUC-RIO
 
 ## Problema Proposto
 
@@ -10,8 +10,16 @@
 
 ![Screenshot](equacoe_problema.png)
 
-As variáveis de projeto são o diâmetro médio da seção transversal das barras (d) e a altura da treliça (H). São conhecidos o peso específico (ρ), a dimensão horizontal (B), a
-espessura da seção (t) e o módulo de elasticidade do material (E). As tensões nas barras da treliça não devem superar o valor da tensão de escoamento do material (σy) e a tensão crítica de Euler.
+As variáveis de projeto são o diâmetro médio da seção transversal das barras (d) e a altura da treliça (H). 
+
+São conhecidos:
+peso específico (ρ)
+dimensão horizontal (B)
+espessura da seção (t)
+módulo de elasticidade do material (E)
+
+Restrições:
+As tensões nas barras da treliça não devem superar o valor da tensão de escoamento do material (σy) e a tensão crítica de Euler.
 
 ### Métodos indiretos:
 ##### Método da Barreira
@@ -33,7 +41,9 @@ Foram desenvolvidos códigos em MATLAB para determinação de que minimiza uma f
 ## Resultados:
 
 ### Barreira
+Ponto de Mínimo [d, H] = [1.87848  20.23889]
 ![Screenshot](barreira.png)
 
 ### Penalidade
+Ponto de Mínimo [d, H] = [1.87836  20.23676]
 ![Screenshot](penalidade.png)
