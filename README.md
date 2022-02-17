@@ -2,9 +2,9 @@
 
 ## Trabalho Desenvolvido para disciplina MEC2403 | PUC-RIO
 
-## Problema Proposto
+# Problema Proposto
 
-### Utilizar métodos indiretos para minimizar o peso da treliça plana de duas barras.
+## Utilizar métodos indiretos para minimizar o peso da treliça plana de duas barras.
 
 ![Screenshot](problema_trelica.png)
 
@@ -22,28 +22,28 @@ Restrições:
 As tensões nas barras da treliça não devem superar o valor da tensão de escoamento do material (σy) e a tensão crítica de Euler.
 
 ### Métodos indiretos:
-##### - Método da Barreira
-##### - Método da Penalidade
+- Método da Barreira
+- Método da Penalidade
 
 ### Métodos de Definição de direção:
-##### Univariante
-##### Powell
-##### Gradiente Descendente
-##### Fletcher-Reeves
-##### BFGS
-##### Newton-Raphson
+- Univariante
+- Powell
+- Gradiente Descendente
+- Fletcher-Reeves
+- BFGS
+- Newton-Raphson
 
 ### Métodos de Busca Linear:
-#### Seção Áurea
+- Seção Áurea
 
 Foram desenvolvidos códigos em MATLAB para determinação de que minimiza uma função dada restrições
 
-## Resultados:
+# Resultados:
 
-### Barreira
-Ponto de Mínimo [d, H] = [1.87848  20.23889]
+## Barreira
+### Ponto de Mínimo [d, H] = [1.87848  20.23889]
 ![Screenshot](barreira.png)
 
-### Penalidade
-Ponto de Mínimo [d, H] = [1.87836  20.23676]
+## Penalidade
+### Ponto de Mínimo [d, H] = [1.87836  20.23676]
 ![Screenshot](penalidade.png)
