@@ -13,17 +13,17 @@
 As variáveis de projeto são o diâmetro médio da seção transversal das barras (d) e a altura da treliça (H). 
 
 São conhecidos:
-peso específico (ρ)
-dimensão horizontal (B)
-espessura da seção (t)
-módulo de elasticidade do material (E)
+- peso específico (ρ)
+- dimensão horizontal (B)
+- espessura da seção (t)
+- módulo de elasticidade do material (E)
 
 Restrições:
 As tensões nas barras da treliça não devem superar o valor da tensão de escoamento do material (σy) e a tensão crítica de Euler.
 
 ### Métodos indiretos:
-##### Método da Barreira
-##### Método da Penalidade
+##### - Método da Barreira
+##### - Método da Penalidade
 
 ### Métodos de Definição de direção:
 ##### Univariante
